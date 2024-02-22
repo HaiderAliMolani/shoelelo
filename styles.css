@@ -1,0 +1,86 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    margin: 0; /* Remove default margin for h1 */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1em;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 2em;
+    background-color: #ddd;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+
+.featured-products {
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 30%; /* Adjust the width as needed to fit three items in a row */
+    margin: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; /* Adjust the maximum height as needed */
+    display: block; /* Remove extra space below image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+}
